@@ -236,17 +236,24 @@ function App() {
               applications, practical software systems and data-driven solutions.
             </p>
 
-            <div className="hero-buttons">
-              <a href="#work" className="primary-button">
-                View My Work
-                <ArrowRightIcon />
-              </a>
+            
+         <div className="hero-buttons">
+  <a href="#work" className="primary-button">
+    View My Work
+    <ArrowRightIcon />
+  </a>
 
-              <a href="#contact" className="secondary-button">
-                Let's Connect
-                <ArrowUpRightIcon />
-              </a>
-            </div>
+  <a href="/Nazon_Abuga_CV.pdf" className="secondary-button" download>
+    Download CV
+    <ArrowUpRightIcon />
+  </a>
+
+  <a href="#contact" className="secondary-button">
+    Let's Connect
+    <ArrowUpRightIcon />
+  </a>
+         </div>
+
           </div>
 
           <div className="hero-profile" aria-label="Nazon Abuga profile image">
